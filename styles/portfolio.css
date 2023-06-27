@@ -22,6 +22,9 @@ h6 {
 h1 {
   font-size: 96px;
 }
+h2 {
+    font-size: 64px;
+}
 p {
   font-weight: normal;
 }
@@ -65,4 +68,13 @@ p {
   border: 1px solid transparent;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-branding-outline {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
 }
