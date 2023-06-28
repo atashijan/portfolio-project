@@ -1,6 +1,7 @@
 :root {
-  --branding-color: #6c63ff;
-  --secondary-color: #f9f7fe;
+  --branding-color: #1526dd87;
+  --secondary-color: #91929f1f;
+  --primary-color: #080b5e;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -16,14 +17,16 @@ h5,
 h6 {
   font-family: var(--heading-font-family);
   font-weight: bold;
-  color: black;
+  color: var(--primary-color);
 }
 
 h1 {
   font-size: 96px;
+  line-height: 1.5;
 }
 h2 {
-    font-size: 64px;
+  font-size: 64px;
+  margin-top: 0;
 }
 p {
   font-weight: normal;
@@ -41,15 +44,15 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: var(--primary-color);
 }
 
 .hero h2 {
   font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
-  color: #272142;
+  line-height: 1.5;
+  color: var(--primary-color);
 }
 
 .btn-branding {
@@ -73,10 +76,38 @@ p {
 }
 
 .btn-branding-outline {
-    color: var(--branding-color);
-    border: 1px solid var(--branding-color);
-    border-radius: 4px;
-    font-size: 18px;
-    line-height: 27px;
-    padding: 15px 30px;
+  color: var(--branding-color);
+  border: 1px solid var(--branding-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
+}
+
+.featured-projects {
+  color: var(--primary-color);
+}
+
+.row {
+  max-width: 100%;
+  background: var(--secondary-color);
+}
+
+.project-description {
+  padding: 40px 60px;
+}
+
+@media (max-width: 900px) {
+  h1 {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  h2 {
+    font-size: 44px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
