@@ -92,7 +92,7 @@ footer .social-links a {
 .hero {
   text-align: center;
   background: var(--secondary-color);
-  padding: 160px 20px;
+  padding: 80px 20px;
 }
 
 .hero p {
@@ -188,9 +188,7 @@ footer .social-links a {
   h2 {
     font-size: 44px;
   }
-  .hero {
-    padding: 80px 20px;
-  }
+
   .project-description {
     padding: 0;
     text-align: center;
@@ -198,5 +196,8 @@ footer .social-links a {
   .content {
     text-align: center;
     padding: 0;
+  }
+  .content-container {
+    text-align: center;
   }
 }
